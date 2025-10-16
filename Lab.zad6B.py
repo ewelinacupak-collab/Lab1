@@ -1,20 +1,4 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Zadanie 6b1
-
-print (end="\n")
 
 droga = float(input("Podaj drogę w km:"))
 spalanie = float(input("Podaj spalanie samochodu w litrach na 100 km:"))
@@ -25,14 +9,9 @@ zuzycie_paliwa = droga * (spalanie / 100)
 koszt = zuzycie_paliwa * cena_paliwa_za_litr
 
 print (f"Samochód spali {zuzycie_paliwa} litrów paliwa")
-print (end=("\n"))
 print (f"Koszt wyniesie {koszt} zł")
 
-#Zadani 6b2
-
-print (end="\n")
-
-# Zadanie 6a
+# Zadanie 6b2
 
 print (end="\n")
 
