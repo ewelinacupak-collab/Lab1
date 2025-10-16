@@ -1,7 +1,5 @@
 # Zadanie 6a
 
-print (end="\n")
-
 import random
 
 los = random.randint(1, 20000)
@@ -14,4 +12,5 @@ zuzycie_paliwa = droga * (spalanie / 100)
 koszt = zuzycie_paliwa * cena_paliwa_za_litr
 
 print ("Samochód spali", zuzycie_paliwa, "litrów paliwa", end=("\n"))
+
 print ("Koszt wyniesie", koszt, "zł")
